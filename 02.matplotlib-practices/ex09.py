@@ -4,8 +4,6 @@
     2개이상의 그래프를 구분하기 위해 legend(범례)를 사용할 수 있다.
 """
 from matplotlib import pyplot as plt
-from numpy.random import randn
-import numpy as np
 
 fig, sp = plt.subplots(1, 1)
 sp.plot([10, 20, 30, 40], label='data1')
